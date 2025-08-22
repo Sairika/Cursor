@@ -1,0 +1,27 @@
+# Financial Policy Chatbot Requirements
+# Join Venture AI (JVAI) - AI Developer Assessment
+
+# Core AI and ML libraries
+ibm-watsonx-ai==0.2.6
+langchain==0.1.16
+langchain-ibm==0.1.4
+
+# Natural Language Processing
+transformers==4.41.2
+huggingface-hub==0.23.4
+sentence-transformers==2.5.1
+
+# Vector Database
+chromadb
+
+# Utilities
+wget==3.2
+
+# PyTorch (CPU version for compatibility)
+--find-links https://download.pytorch.org/whl/cpu
+torch
+
+# Additional dependencies that may be needed
+numpy
+pandas
+scikit-learn
